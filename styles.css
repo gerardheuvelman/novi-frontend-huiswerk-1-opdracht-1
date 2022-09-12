@@ -1,0 +1,55 @@
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.three-one {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.four-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.five>* {
+    flex: 1 1 160px;
+}
+
